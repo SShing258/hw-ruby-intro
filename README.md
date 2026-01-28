@@ -67,7 +67,7 @@ When the image is built (assuming you had no errors), you can also verify that i
 application. Finally, you can run the image by issuing the following on the command line:
 
 ```bash
-run -it hw-ruby-intro
+docker run -it hw-ruby-intro
 ```
 
 Normally, we don't run interactive, terminal-based programs (such as our script) in a container, and expect user input.
